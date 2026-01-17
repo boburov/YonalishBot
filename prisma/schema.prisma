@@ -1,13 +1,67 @@
 generator client {
-  provider = "prisma-client"
-  output   = "../generated/prisma"
+  provider = "prisma-client-js"
+  // output   = "../generated/prisma"
 }
 
 datasource db {
   provider = "postgresql"
 }
 
+enum OrderStatus {
+  PENDING
+  SENT
+  CANCELED
+}
+
 model User {
-  id String @id @default(uuid())
-  username String
+  id        String   @id @default(uuid())
+  tgUserId  BigInt   @unique
+  name      String?
+  username  String?
+  phone     String?
+  createdAt DateTime @default(now())
+  orders    Order[]
+}
+
+model Location {
+  id        String   @id @default(uuid())
+  name      String   @unique
+  slug      String   @unique
+  groups    Group[]
+  createdAt DateTime @default(now())
+}
+
+model Group {
+  id         String   @id @default(uuid())
+  tgChatId   BigInt   @unique
+  title      String?
+  username   String?
+  locationId String
+  isActive   Boolean  @default(true)
+  createdAt  DateTime @default(now())
+
+  location Location @relation(fields: [locationId], references: [id])
+  orders   Order[]
+}
+
+model Order {
+  id         String      @id @default(uuid())
+  fromText   String
+  toText     String
+  details    String?
+  priceOffer Int?
+  status     OrderStatus @default(PENDING)
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id])
+
+  groupId String
+  group   Group  @relation(fields: [groupId], references: [id])
+
+  sentMessageId Int?
+  createdAt     DateTime  @default(now())
+  sentAt        DateTime?
+
+  @@index([groupId, createdAt])
+  @@index([userId, createdAt])
 }
