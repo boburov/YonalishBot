@@ -1,14 +1,20 @@
-const { Telegraf } = require("telegraf");
-require("dotenv").config();
+const ALL_LOCATION = require("./callbacks/all.locations");
+const CREATE_ELON = require("./callbacks/create.elon");
+const getUserLocation = require("./callbacks/user.location");
+const startCommmand = require("./commands/start");
 
-const { registerAdminFlow } = require("./src/flows/admin");
-const { registerUserFlow } = require("./src/flows/user");
+function botRunner(bot) {
+    //start command section
+    startCommmand(bot)
 
-exports.createBot = function createBot() {
-    const bot = new Telegraf(process.env.BOT_TOKEN);
+    //get location from user 
+    getUserLocation(bot)
 
-    registerUserFlow(bot);
-    registerAdminFlow(bot);
+    // create elon
+    CREATE_ELON(bot)
 
-    return bot;
-};
+    //all exist locations
+    ALL_LOCATION(bot)
+}
+
+module.exports = botRunner

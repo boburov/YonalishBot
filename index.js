@@ -1,8 +1,11 @@
-const { createBot } = require("./bot");
+require("dotenv").config()
+const { Telegraf } = require("telegraf");
+const botRunner = require("./bot");
 
-const bot = createBot();
+const bot = new Telegraf(process.env.BOT_TOKEN)
 
-bot.launch(() => console.log("✅ Bot ishlamoqda"));
+botRunner(bot)
 
-process.once("SIGINT", () => bot.stop("SIGINT"));
-process.once("SIGTERM", () => bot.stop("SIGTERM"));
+bot.launch(() => {
+    console.log("🤖 Bot Ishga Tushdi");
+})
