@@ -1,6 +1,6 @@
-const ALL_LOCATION = require("./callbacks/all.locations");
-const CREATE_ELON = require("./callbacks/create.elon");
-const getUserLocation = require("./callbacks/user.location");
+const ALL_LOCATION = require("./actions/all.locations");
+const CREATE_ELON = require("./actions/create.elon");
+const getUserLocation = require("./actions/user.location");
 const startCommmand = require("./commands/start");
 
 function botRunner(bot) {

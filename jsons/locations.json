@@ -1,0 +1,1152 @@
+{
+    "regions": [
+        {
+            "id": 2,
+            "soato_id": 1703,
+            "name": "Andijon",
+            "districts": [
+                {
+                    "id": 16,
+                    "soato_id": 1703202,
+                    "name": "Oltinko'l tumani"
+                },
+                {
+                    "id": 17,
+                    "soato_id": 1703203,
+                    "name": "Andijon tumani"
+                },
+                {
+                    "id": 18,
+                    "soato_id": 1703206,
+                    "name": "Baliqchi tumani"
+                },
+                {
+                    "id": 19,
+                    "soato_id": 1703209,
+                    "name": "Bo'z tumani"
+                },
+                {
+                    "id": 20,
+                    "soato_id": 1703210,
+                    "name": "Buloqboshi tumani"
+                },
+                {
+                    "id": 21,
+                    "soato_id": 1703211,
+                    "name": "Jalaquduq tumani"
+                },
+                {
+                    "id": 22,
+                    "soato_id": 1703214,
+                    "name": "Izboskan tumani"
+                },
+                {
+                    "id": 23,
+                    "soato_id": 1703217,
+                    "name": "Ulug'nor tumani"
+                },
+                {
+                    "id": 24,
+                    "soato_id": 1703220,
+                    "name": "Qo'rg'ontepa tumani"
+                },
+                {
+                    "id": 25,
+                    "soato_id": 1703224,
+                    "name": "Asaka tumani"
+                },
+                {
+                    "id": 26,
+                    "soato_id": 1703227,
+                    "name": "Marxamat tumani"
+                },
+                {
+                    "id": 27,
+                    "soato_id": 1703230,
+                    "name": "Shahrixon tumani"
+                },
+                {
+                    "id": 28,
+                    "soato_id": 1703232,
+                    "name": "Paxtaobod tumani"
+                },
+                {
+                    "id": 29,
+                    "soato_id": 1703236,
+                    "name": "Xo'jaobod tumani"
+                },
+                {
+                    "id": 30,
+                    "soato_id": 1703401,
+                    "name": "Andijon"
+                },
+                {
+                    "id": 31,
+                    "soato_id": 1703408,
+                    "name": "Xonobod"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "soato_id": 1706,
+            "name": "Buxoro",
+            "districts": [
+                {
+                    "id": 32,
+                    "soato_id": 1706204,
+                    "name": "Olot tumani"
+                },
+                {
+                    "id": 33,
+                    "soato_id": 1706207,
+                    "name": "Buxoro tumani"
+                },
+                {
+                    "id": 34,
+                    "soato_id": 1706212,
+                    "name": "Vobkent tumani"
+                },
+                {
+                    "id": 35,
+                    "soato_id": 1706215,
+                    "name": "G'ijduvon tumani"
+                },
+                {
+                    "id": 36,
+                    "soato_id": 1706219,
+                    "name": "Kogon tumani"
+                },
+                {
+                    "id": 37,
+                    "soato_id": 1706230,
+                    "name": "Qorako'l tumani"
+                },
+                {
+                    "id": 38,
+                    "soato_id": 1706232,
+                    "name": "Qorovulbozor tumani"
+                },
+                {
+                    "id": 39,
+                    "soato_id": 1706240,
+                    "name": "Peshku tumani"
+                },
+                {
+                    "id": 40,
+                    "soato_id": 1706242,
+                    "name": "Romitan tumani"
+                },
+                {
+                    "id": 41,
+                    "soato_id": 1706246,
+                    "name": "Jondor tumani"
+                },
+                {
+                    "id": 42,
+                    "soato_id": 1706258,
+                    "name": "Shofirkon tumani"
+                },
+                {
+                    "id": 43,
+                    "soato_id": 1706401,
+                    "name": "Buxoro"
+                },
+                {
+                    "id": 44,
+                    "soato_id": 1706403,
+                    "name": "Kogon"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "soato_id": 1708,
+            "name": "Jizzax",
+            "districts": [
+                {
+                    "id": 45,
+                    "soato_id": 1708201,
+                    "name": "Arnasoy tumani"
+                },
+                {
+                    "id": 46,
+                    "soato_id": 1708204,
+                    "name": "Baxmal tumani"
+                },
+                {
+                    "id": 47,
+                    "soato_id": 1708209,
+                    "name": "G'allaorol tumani"
+                },
+                {
+                    "id": 49,
+                    "soato_id": 1708215,
+                    "name": "Do'stlik tumani"
+                },
+                {
+                    "id": 50,
+                    "soato_id": 1708218,
+                    "name": "Zomin tumani"
+                },
+                {
+                    "id": 51,
+                    "soato_id": 1708220,
+                    "name": "Zarbdor tumani"
+                },
+                {
+                    "id": 52,
+                    "soato_id": 1708223,
+                    "name": "Mirzacho'l tumani"
+                },
+                {
+                    "id": 53,
+                    "soato_id": 1708225,
+                    "name": "Zafarobod tumani"
+                },
+                {
+                    "id": 54,
+                    "soato_id": 1708228,
+                    "name": "Paxtakor tumani"
+                },
+                {
+                    "id": 55,
+                    "soato_id": 1708235,
+                    "name": "Forish tumani"
+                },
+                {
+                    "id": 56,
+                    "soato_id": 1708237,
+                    "name": "Yangiobod tumani"
+                },
+                {
+                    "id": 57,
+                    "soato_id": 1708401,
+                    "name": "Jizzax"
+                },
+                {
+                    "id": 2905,
+                    "soato_id": 1708212,
+                    "name": "Sh.Rashidov tumani"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "soato_id": 1710,
+            "name": "Qashqadaryo",
+            "districts": [
+                {
+                    "id": 58,
+                    "soato_id": 1710207,
+                    "name": "G'uzor tumani"
+                },
+                {
+                    "id": 59,
+                    "soato_id": 1710212,
+                    "name": "Dehqonobod tumani"
+                },
+                {
+                    "id": 60,
+                    "soato_id": 1710220,
+                    "name": "Qamashi tumani"
+                },
+                {
+                    "id": 61,
+                    "soato_id": 1710224,
+                    "name": "Qarshi tumani"
+                },
+                {
+                    "id": 62,
+                    "soato_id": 1710229,
+                    "name": "Koson tumani"
+                },
+                {
+                    "id": 63,
+                    "soato_id": 1710232,
+                    "name": "Kitob tumani"
+                },
+                {
+                    "id": 64,
+                    "soato_id": 1710233,
+                    "name": "Mirishkor tumani"
+                },
+                {
+                    "id": 65,
+                    "soato_id": 1710234,
+                    "name": "Muborak tumani"
+                },
+                {
+                    "id": 66,
+                    "soato_id": 1710235,
+                    "name": "Nishon tumani"
+                },
+                {
+                    "id": 67,
+                    "soato_id": 1710237,
+                    "name": "Kasbi tumani"
+                },
+                {
+                    "id": 68,
+                    "soato_id": 1710242,
+                    "name": "Chiroqchi tumani"
+                },
+                {
+                    "id": 69,
+                    "soato_id": 1710245,
+                    "name": "Shahrisabz tumani"
+                },
+                {
+                    "id": 70,
+                    "soato_id": 1710250,
+                    "name": "Yakkabog' tumani"
+                },
+                {
+                    "id": 71,
+                    "soato_id": 1710401,
+                    "name": "Qarshi"
+                },
+                {
+                    "id": 72,
+                    "soato_id": 1710405,
+                    "name": "Shahrisabz"
+                },
+                {
+                    "id": 8591,
+                    "soato_id": 1710240,
+                    "name": "Ko‘kdala tumani"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "soato_id": 1712,
+            "name": "Navoiy",
+            "districts": [
+                {
+                    "id": 73,
+                    "soato_id": 1712211,
+                    "name": "Konimex tumani"
+                },
+                {
+                    "id": 74,
+                    "soato_id": 1712216,
+                    "name": "Qiziltepa tumani"
+                },
+                {
+                    "id": 75,
+                    "soato_id": 1712230,
+                    "name": "Navbahor tumani"
+                },
+                {
+                    "id": 76,
+                    "soato_id": 1712234,
+                    "name": "Karmana tumani"
+                },
+                {
+                    "id": 77,
+                    "soato_id": 1712238,
+                    "name": "Nurota tumani"
+                },
+                {
+                    "id": 78,
+                    "soato_id": 1712244,
+                    "name": "Tomdi tumani"
+                },
+                {
+                    "id": 79,
+                    "soato_id": 1712248,
+                    "name": "Uchquduq tumani"
+                },
+                {
+                    "id": 80,
+                    "soato_id": 1712251,
+                    "name": "Xatirchi tumani"
+                },
+                {
+                    "id": 81,
+                    "soato_id": 1712401,
+                    "name": "Navoiy"
+                },
+                {
+                    "id": 2939,
+                    "soato_id": 1712408,
+                    "name": "Zarafshon"
+                },
+                {
+                    "id": 8584,
+                    "soato_id": 1712412,
+                    "name": "G‘ozg‘on tumani"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "soato_id": 1714,
+            "name": "Namangan",
+            "districts": [
+                {
+                    "id": 83,
+                    "soato_id": 1714204,
+                    "name": "Mingbuloq tumani"
+                },
+                {
+                    "id": 84,
+                    "soato_id": 1714207,
+                    "name": "Kosonsoy tumani"
+                },
+                {
+                    "id": 85,
+                    "soato_id": 1714212,
+                    "name": "Namangan tumani"
+                },
+                {
+                    "id": 86,
+                    "soato_id": 1714216,
+                    "name": "Norin tumani"
+                },
+                {
+                    "id": 87,
+                    "soato_id": 1714219,
+                    "name": "Pop tumani"
+                },
+                {
+                    "id": 88,
+                    "soato_id": 1714224,
+                    "name": "To'raqo'rg'on tumani"
+                },
+                {
+                    "id": 89,
+                    "soato_id": 1714229,
+                    "name": "Uychi tumani"
+                },
+                {
+                    "id": 90,
+                    "soato_id": 1714234,
+                    "name": "Uchqo'rg'on tumani"
+                },
+                {
+                    "id": 91,
+                    "soato_id": 1714236,
+                    "name": "Chortoq tumani"
+                },
+                {
+                    "id": 92,
+                    "soato_id": 1714237,
+                    "name": "Chust tumani"
+                },
+                {
+                    "id": 93,
+                    "soato_id": 1714242,
+                    "name": "Yangiqo'rg'on tumani"
+                },
+                {
+                    "id": 94,
+                    "soato_id": 1714401,
+                    "name": "Namangan"
+                },
+                {
+                    "id": 8595,
+                    "soato_id": 1714401365,
+                    "name": "Davlatobod tumani"
+                },
+                {
+                    "id": 8601,
+                    "soato_id": 1714401367,
+                    "name": "Yangi Namangan tumani"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "soato_id": 1718,
+            "name": "Samarqand",
+            "districts": [
+                {
+                    "id": 95,
+                    "soato_id": 1718203,
+                    "name": "Oqdaryo tumani"
+                },
+                {
+                    "id": 96,
+                    "soato_id": 1718206,
+                    "name": "Bulung'ur tumani"
+                },
+                {
+                    "id": 97,
+                    "soato_id": 1718209,
+                    "name": "Jomboy tumani"
+                },
+                {
+                    "id": 98,
+                    "soato_id": 1718212,
+                    "name": "Ishtixon tumani"
+                },
+                {
+                    "id": 99,
+                    "soato_id": 1718215,
+                    "name": "Kattaqo'rg'on tumani"
+                },
+                {
+                    "id": 100,
+                    "soato_id": 1718216,
+                    "name": "Qo'shrabot tumani"
+                },
+                {
+                    "id": 101,
+                    "soato_id": 1718218,
+                    "name": "Narpay tumani"
+                },
+                {
+                    "id": 102,
+                    "soato_id": 1718224,
+                    "name": "Payariq tumani"
+                },
+                {
+                    "id": 103,
+                    "soato_id": 1718227,
+                    "name": "Pastdarg'om tumani"
+                },
+                {
+                    "id": 104,
+                    "soato_id": 1718230,
+                    "name": "Paxtachi tumani"
+                },
+                {
+                    "id": 105,
+                    "soato_id": 1718233,
+                    "name": "Samarqand tumani"
+                },
+                {
+                    "id": 106,
+                    "soato_id": 1718235,
+                    "name": "Nurobod tumani"
+                },
+                {
+                    "id": 107,
+                    "soato_id": 1718236,
+                    "name": "Urgut tumani"
+                },
+                {
+                    "id": 108,
+                    "soato_id": 1718238,
+                    "name": "Tayloq tumani"
+                },
+                {
+                    "id": 109,
+                    "soato_id": 1718401,
+                    "name": "Samarqand"
+                },
+                {
+                    "id": 110,
+                    "soato_id": 1718406,
+                    "name": "Kattaqo'rg'on"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "soato_id": 1724,
+            "name": "Sirdaryo",
+            "districts": [
+                {
+                    "id": 125,
+                    "soato_id": 1724206,
+                    "name": "Oqoltin tumani"
+                },
+                {
+                    "id": 126,
+                    "soato_id": 1724212,
+                    "name": "Boyovut tumani"
+                },
+                {
+                    "id": 127,
+                    "soato_id": 1724216,
+                    "name": "Sayxunobod tumani"
+                },
+                {
+                    "id": 128,
+                    "soato_id": 1724220,
+                    "name": "Guliston tumani"
+                },
+                {
+                    "id": 129,
+                    "soato_id": 1724226,
+                    "name": "Sardoba tumani"
+                },
+                {
+                    "id": 130,
+                    "soato_id": 1724228,
+                    "name": "Mirzaobod tumani"
+                },
+                {
+                    "id": 131,
+                    "soato_id": 1724231,
+                    "name": "Sirdaryo tumani"
+                },
+                {
+                    "id": 132,
+                    "soato_id": 1724235,
+                    "name": "Xovos tumani"
+                },
+                {
+                    "id": 133,
+                    "soato_id": 1724401,
+                    "name": "Guliston"
+                },
+                {
+                    "id": 134,
+                    "soato_id": 1724410,
+                    "name": "Shirin"
+                },
+                {
+                    "id": 135,
+                    "soato_id": 1724413,
+                    "name": "Yangiyer"
+                },
+                {
+                    "id": 8574,
+                    "soato_id": 1724414,
+                    "name": "Baxt shaxar"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "soato_id": 1726,
+            "name": "Toshkent shahri",
+            "districts": [
+                {
+                    "id": 137,
+                    "soato_id": 1726262,
+                    "name": "Uchtepa tumani"
+                },
+                {
+                    "id": 138,
+                    "soato_id": 1726264,
+                    "name": "Bektemir tumani"
+                },
+                {
+                    "id": 139,
+                    "soato_id": 1726266,
+                    "name": "Yunusobod tumani"
+                },
+                {
+                    "id": 140,
+                    "soato_id": 1726269,
+                    "name": "Mirzo Ulug'bek tumani"
+                },
+                {
+                    "id": 141,
+                    "soato_id": 1726273,
+                    "name": "Mirobod tumani"
+                },
+                {
+                    "id": 142,
+                    "soato_id": 1726277,
+                    "name": "Shayxontohur tumani"
+                },
+                {
+                    "id": 143,
+                    "soato_id": 1726280,
+                    "name": "Olmazor tumani"
+                },
+                {
+                    "id": 144,
+                    "soato_id": 1726283,
+                    "name": "Sirg'ali tumani"
+                },
+                {
+                    "id": 145,
+                    "soato_id": 1726287,
+                    "name": "Yakkasaroy tumani"
+                },
+                {
+                    "id": 146,
+                    "soato_id": 1726290,
+                    "name": "Yashnobod tumani"
+                },
+                {
+                    "id": 147,
+                    "soato_id": 1726294,
+                    "name": "Chilonzor tumani"
+                },
+                {
+                    "id": 8587,
+                    "soato_id": 1726292,
+                    "name": "Yangihayot tumani"
+                },
+                {
+                    "id": 2993,
+                    "soato_id": 1726260260,
+                    "name": "Toshkent shahrining tumanlari"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "soato_id": 1727,
+            "name": "Toshkent",
+            "districts": [
+                {
+                    "id": 148,
+                    "soato_id": 1727206,
+                    "name": "Oqqo'rg'on tumani"
+                },
+                {
+                    "id": 149,
+                    "soato_id": 1727212,
+                    "name": "Ohangaron tumani"
+                },
+                {
+                    "id": 150,
+                    "soato_id": 1727220,
+                    "name": "Bekobod tumani"
+                },
+                {
+                    "id": 151,
+                    "soato_id": 1727224,
+                    "name": "Bo'stonliq tumani"
+                },
+                {
+                    "id": 152,
+                    "soato_id": 1727228,
+                    "name": "Bo'ka tumani"
+                },
+                {
+                    "id": 154,
+                    "soato_id": 1727237,
+                    "name": "Zangiota tumani"
+                },
+                {
+                    "id": 155,
+                    "soato_id": 1727239,
+                    "name": "Yuqorichirchiq tumani"
+                },
+                {
+                    "id": 156,
+                    "soato_id": 1727248,
+                    "name": "Qibray tumani"
+                },
+                {
+                    "id": 157,
+                    "soato_id": 1727249,
+                    "name": "Parkent tumani"
+                },
+                {
+                    "id": 158,
+                    "soato_id": 1727250,
+                    "name": "Piskent tumani"
+                },
+                {
+                    "id": 159,
+                    "soato_id": 1727253,
+                    "name": "O'rtachirchiq tumani"
+                },
+                {
+                    "id": 160,
+                    "soato_id": 1727256,
+                    "name": "Chinoz tumani"
+                },
+                {
+                    "id": 161,
+                    "soato_id": 1727259,
+                    "name": "Yangiyo'l tumani"
+                },
+                {
+                    "id": 162,
+                    "soato_id": 1727265,
+                    "name": "Toshkent tumani"
+                },
+                {
+                    "id": 163,
+                    "soato_id": 1727401,
+                    "name": "Nurafshon"
+                },
+                {
+                    "id": 164,
+                    "soato_id": 1727404,
+                    "name": "Olmaliq"
+                },
+                {
+                    "id": 165,
+                    "soato_id": 1727407,
+                    "name": "Angren"
+                },
+                {
+                    "id": 166,
+                    "soato_id": 1727413,
+                    "name": "Bekobod"
+                },
+                {
+                    "id": 167,
+                    "soato_id": 1727415,
+                    "name": "Ohangaron"
+                },
+                {
+                    "id": 168,
+                    "soato_id": 1727419,
+                    "name": "Chirchiq"
+                },
+                {
+                    "id": 169,
+                    "soato_id": 1727424,
+                    "name": "Yangiyo'l"
+                },
+                {
+                    "id": 5867,
+                    "soato_id": 1727233,
+                    "name": "Quyichirchiq tumani"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "soato_id": 1730,
+            "name": "Farg'ona",
+            "districts": [
+                {
+                    "id": 170,
+                    "soato_id": 1730203,
+                    "name": "Oltiariq tumani"
+                },
+                {
+                    "id": 171,
+                    "soato_id": 1730206,
+                    "name": "Qo'shtepa tumani"
+                },
+                {
+                    "id": 172,
+                    "soato_id": 1730209,
+                    "name": "Bog'dod tumani"
+                },
+                {
+                    "id": 173,
+                    "soato_id": 1730212,
+                    "name": "Buvayda tumani"
+                },
+                {
+                    "id": 174,
+                    "soato_id": 1730215,
+                    "name": "Beshariq tumani"
+                },
+                {
+                    "id": 175,
+                    "soato_id": 1730218,
+                    "name": "Quva tumani"
+                },
+                {
+                    "id": 176,
+                    "soato_id": 1730221,
+                    "name": "Uchko'prik tumani"
+                },
+                {
+                    "id": 177,
+                    "soato_id": 1730224,
+                    "name": "Rishton tumani"
+                },
+                {
+                    "id": 178,
+                    "soato_id": 1730226,
+                    "name": "So'x tumani"
+                },
+                {
+                    "id": 179,
+                    "soato_id": 1730227,
+                    "name": "Toshloq tumani"
+                },
+                {
+                    "id": 180,
+                    "soato_id": 1730230,
+                    "name": "O'zbekiston tumani"
+                },
+                {
+                    "id": 181,
+                    "soato_id": 1730233,
+                    "name": "Farg'ona tumani"
+                },
+                {
+                    "id": 182,
+                    "soato_id": 1730236,
+                    "name": "Dang'ara tumani"
+                },
+                {
+                    "id": 183,
+                    "soato_id": 1730238,
+                    "name": "Furqat tumani"
+                },
+                {
+                    "id": 184,
+                    "soato_id": 1730242,
+                    "name": "Yozyovon tumani"
+                },
+                {
+                    "id": 185,
+                    "soato_id": 1730401,
+                    "name": "Farg'ona"
+                },
+                {
+                    "id": 186,
+                    "soato_id": 1730405,
+                    "name": "Qo'qon"
+                },
+                {
+                    "id": 187,
+                    "soato_id": 1730408,
+                    "name": "Quvasoy"
+                },
+                {
+                    "id": 188,
+                    "soato_id": 1730412,
+                    "name": "Marg'ilon"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "soato_id": 1733,
+            "name": "Xorazm",
+            "districts": [
+                {
+                    "id": 189,
+                    "soato_id": 1733204,
+                    "name": "Bog'ot tumani"
+                },
+                {
+                    "id": 190,
+                    "soato_id": 1733208,
+                    "name": "Gurlan tumani"
+                },
+                {
+                    "id": 191,
+                    "soato_id": 1733212,
+                    "name": "Qo'shko'pir tumani"
+                },
+                {
+                    "id": 192,
+                    "soato_id": 1733217,
+                    "name": "Urganch tumani"
+                },
+                {
+                    "id": 193,
+                    "soato_id": 1733220,
+                    "name": "Xazorasp tumani"
+                },
+                {
+                    "id": 194,
+                    "soato_id": 1733223,
+                    "name": "Xonqa tumani"
+                },
+                {
+                    "id": 195,
+                    "soato_id": 1733226,
+                    "name": "Xiva tumani"
+                },
+                {
+                    "id": 196,
+                    "soato_id": 1733230,
+                    "name": "Shovot tumani"
+                },
+                {
+                    "id": 197,
+                    "soato_id": 1733233,
+                    "name": "Yangiariq tumani"
+                },
+                {
+                    "id": 198,
+                    "soato_id": 1733236,
+                    "name": "Yangibozor tumani"
+                },
+                {
+                    "id": 199,
+                    "soato_id": 1733401,
+                    "name": "Urganch"
+                },
+                {
+                    "id": 200,
+                    "soato_id": 1733406,
+                    "name": "Xiva"
+                },
+                {
+                    "id": 8581,
+                    "soato_id": 1733221,
+                    "name": "Tuproqqal’a tumani"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "soato_id": 1735,
+            "name": "Qoraqalpog'iston Respublikasi",
+            "districts": [
+                {
+                    "id": 201,
+                    "soato_id": 1735204,
+                    "name": "Amudaryo tumani"
+                },
+                {
+                    "id": 202,
+                    "soato_id": 1735207,
+                    "name": "Beruniy tumani"
+                },
+                {
+                    "id": 203,
+                    "soato_id": 1735211,
+                    "name": "Qorao'zak tumani"
+                },
+                {
+                    "id": 204,
+                    "soato_id": 1735212,
+                    "name": "Kegeyli tumani"
+                },
+                {
+                    "id": 205,
+                    "soato_id": 1735215,
+                    "name": "Qo'ng'irot tumani"
+                },
+                {
+                    "id": 206,
+                    "soato_id": 1735218,
+                    "name": "Qanliko'l tumani"
+                },
+                {
+                    "id": 207,
+                    "soato_id": 1735222,
+                    "name": "Mo'ynoq tumani"
+                },
+                {
+                    "id": 208,
+                    "soato_id": 1735225,
+                    "name": "Nukus tumani"
+                },
+                {
+                    "id": 209,
+                    "soato_id": 1735228,
+                    "name": "Taxiatosh tumani"
+                },
+                {
+                    "id": 210,
+                    "soato_id": 1735230,
+                    "name": "Taxtako'pir tumani"
+                },
+                {
+                    "id": 211,
+                    "soato_id": 1735233,
+                    "name": "To'rtko'l tumani"
+                },
+                {
+                    "id": 212,
+                    "soato_id": 1735236,
+                    "name": "Xo'jayli tumani"
+                },
+                {
+                    "id": 213,
+                    "soato_id": 1735240,
+                    "name": "Chimboy tumani"
+                },
+                {
+                    "id": 214,
+                    "soato_id": 1735243,
+                    "name": "Shumanay tumani"
+                },
+                {
+                    "id": 215,
+                    "soato_id": 1735250,
+                    "name": "Ellikqal'a tumani"
+                },
+                {
+                    "id": 216,
+                    "soato_id": 1735401,
+                    "name": "Nukus"
+                },
+                {
+                    "id": 8575,
+                    "soato_id": 1735209,
+                    "name": "Bo‘zatov tumani"
+                }
+            ]
+        },
+        {
+            "id": 5723,
+            "soato_id": 1722,
+            "name": "Surxondaryo",
+            "districts": [
+                {
+                    "id": 111,
+                    "soato_id": 1722201,
+                    "name": "Oltinsoy tumani"
+                },
+                {
+                    "id": 112,
+                    "soato_id": 1722202,
+                    "name": "Angor tumani"
+                },
+                {
+                    "id": 113,
+                    "soato_id": 1722204,
+                    "name": "Boysun tumani"
+                },
+                {
+                    "id": 114,
+                    "soato_id": 1722207,
+                    "name": "Muzrabot tumani"
+                },
+                {
+                    "id": 115,
+                    "soato_id": 1722210,
+                    "name": "Denov tumani"
+                },
+                {
+                    "id": 116,
+                    "soato_id": 1722212,
+                    "name": "Jarqo'rg'on tumani"
+                },
+                {
+                    "id": 117,
+                    "soato_id": 1722214,
+                    "name": "Qumqo'rg'on tumani"
+                },
+                {
+                    "id": 118,
+                    "soato_id": 1722215,
+                    "name": "Qiziriq tumani"
+                },
+                {
+                    "id": 119,
+                    "soato_id": 1722217,
+                    "name": "Sariosiyo tumani"
+                },
+                {
+                    "id": 120,
+                    "soato_id": 1722220,
+                    "name": "Termiz tumani"
+                },
+                {
+                    "id": 121,
+                    "soato_id": 1722221,
+                    "name": "Uzun tumani"
+                },
+                {
+                    "id": 122,
+                    "soato_id": 1722223,
+                    "name": "Sherobod tumani"
+                },
+                {
+                    "id": 123,
+                    "soato_id": 1722226,
+                    "name": "Sho'rchi tumani"
+                },
+                {
+                    "id": 8580,
+                    "soato_id": 1722203,
+                    "name": "Bandixon tumani"
+                },
+                {
+                    "id": 2981,
+                    "soato_id": 1722401,
+                    "name": "Termiz"
+                }
+            ]
+        }
+    ]
+}

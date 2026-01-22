@@ -1,3 +1,3 @@
-const session = new Map()
+const sessionStorage = new Map()
 
-module.exports = session
+module.exports = sessionStorage

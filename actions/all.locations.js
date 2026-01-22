@@ -1,16 +1,17 @@
 const { Markup } = require("telegraf");
-const { prisma } = require("../db/config");
-const { pickEmojiStable } = require("../constants/emoji");
+const { pickEmojiRandom } = require("../constants/emoji");
 const chunk = require("../functions/chunker");
+const regions = require("../jsons/locations.json")
 
 function ALL_LOCATION(bot) {
     bot.action("ALL_LOCATION", async (ctx) => {
         try {
-            const locations = await prisma.region.findMany();
+
+            const locations = await regions.regions
 
             const buttons = locations.map((region) =>
                 Markup.button.callback(
-                    `${pickEmojiStable(region.id)} ${region.name}`,
+                    `${pickEmojiRandom()} ${region.name}`,
                     `JS_LOCATION`
                 )
             );

@@ -6,24 +6,59 @@ datasource db {
   provider = "postgresql"
 }
 
-model Elon {
-  id          String  @id @default(uuid())
-  username    String?
-  phone       String?
-  second_phne String?
-  from        String?
-  to          String?
-}
-
 model Region {
-  id        String      @id @default(uuid())
+  id String @id @default(uuid())
+
+  regionNo Int?    @unique
+  soatoId  Int?    @unique
+  nameUz   String?
+
   name      String
   districts Districts[]
+
+  routesFrom RouteChannel[] @relation("routesFrom")
+  routesTo   RouteChannel[] @relation("routesTo")
 }
 
 model Districts {
-  id       String  @id @default(uuid())
-  name     String
-  region   Region? @relation(fields: [regionId], references: [id])
+  id      String  @id @default(uuid())
+  soatoId Int?    @unique
+  nameUz  String?
+  name    String
+
   regionId String?
+  region   Region? @relation(fields: [regionId], references: [id])
+}
+
+model TelegramChannel {
+  id       String  @id @default(uuid())
+  chatId   BigInt  @unique
+  username String? @unique
+  title    String?
+  isActive Boolean @default(true)
+
+  routes    RouteChannel[]
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+}
+
+model RouteChannel {
+  id String @id @default(uuid())
+
+  fromRegionId String
+  toRegionId   String
+  channelId    String
+
+  fromRegion Region          @relation("routesFrom", fields: [fromRegionId], references: [id])
+  toRegion   Region          @relation("routesTo", fields: [toRegionId], references: [id])
+  channel    TelegramChannel @relation(fields: [channelId], references: [id])
+
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([fromRegionId, toRegionId])
+  @@index([fromRegionId])
+  @@index([toRegionId])
+  @@index([channelId])
 }
