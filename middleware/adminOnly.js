@@ -12,4 +12,4 @@ function AdminOnly(ctx, next) {
     next()
 }
 
-module.exports = AdminOnly;
+module.exports = { AdminOnly, ADMINS };

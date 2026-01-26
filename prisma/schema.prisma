@@ -6,59 +6,23 @@ datasource db {
   provider = "postgresql"
 }
 
-model Region {
-  id String @id @default(uuid())
+model Direction {
+  id   String @id @default(uuid())
+  from String
+  to   String
 
-  regionNo Int?    @unique
-  soatoId  Int?    @unique
-  nameUz   String?
+  channels Channel[]
 
-  name      String
-  districts Districts[]
-
-  routesFrom RouteChannel[] @relation("routesFrom")
-  routesTo   RouteChannel[] @relation("routesTo")
+  @@unique([from, to])
+  @@index([from])
+  @@index([to])
 }
 
-model Districts {
-  id      String  @id @default(uuid())
-  soatoId Int?    @unique
-  nameUz  String?
-  name    String
+model Channel {
+  id          String    @id @default(uuid())
+  channelId   String
+  directionId String
+  direction   Direction @relation(fields: [directionId], references: [id])
 
-  regionId String?
-  region   Region? @relation(fields: [regionId], references: [id])
-}
-
-model TelegramChannel {
-  id       String  @id @default(uuid())
-  chatId   BigInt  @unique
-  username String? @unique
-  title    String?
-  isActive Boolean @default(true)
-
-  routes    RouteChannel[]
-  createdAt DateTime       @default(now())
-  updatedAt DateTime       @updatedAt
-}
-
-model RouteChannel {
-  id String @id @default(uuid())
-
-  fromRegionId String
-  toRegionId   String
-  channelId    String
-
-  fromRegion Region          @relation("routesFrom", fields: [fromRegionId], references: [id])
-  toRegion   Region          @relation("routesTo", fields: [toRegionId], references: [id])
-  channel    TelegramChannel @relation(fields: [channelId], references: [id])
-
-  isActive  Boolean  @default(true)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  @@unique([fromRegionId, toRegionId])
-  @@index([fromRegionId])
-  @@index([toRegionId])
-  @@index([channelId])
+  @@unique([directionId, channelId])
 }
