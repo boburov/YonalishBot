@@ -1,5 +1,5 @@
 const { Markup } = require("telegraf");
-const AdminOnly = require("../middleware/adminOnly");
+const { AdminOnly } = require("../middleware/adminOnly");
 
 function startCommmand(bot) {
   bot.start(AdminOnly, async (ctx) => {

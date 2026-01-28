@@ -11,7 +11,8 @@ model Direction {
   from String
   to   String
 
-  channels Channel[]
+  channels      Channel[]
+  announcements Announcement[]
 
   @@unique([from, to])
   @@index([from])
@@ -25,4 +26,33 @@ model Channel {
   direction   Direction @relation(fields: [directionId], references: [id])
 
   @@unique([directionId, channelId])
+}
+
+model Announcement {
+  id             String    @id @default(uuid())
+  telegramUserId String // Telegram User ID
+  directionId    String
+  direction      Direction @relation(fields: [directionId], references: [id])
+
+  price       String?
+  date        String?
+  contact     String
+  description String?
+
+  status    String   @default("PENDING") // PENDING, PUBLISHED
+  createdAt DateTime @default(now())
+
+  deliveries AnnouncementDelivery[]
+}
+
+model AnnouncementDelivery {
+  id             String       @id @default(uuid())
+  announcementId String
+  announcement   Announcement @relation(fields: [announcementId], references: [id])
+
+  channelId    String
+  status       String // SUCCESS, FAILED
+  errorMessage String?
+
+  createdAt DateTime @default(now())
 }
